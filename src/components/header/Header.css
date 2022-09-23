@@ -1,0 +1,41 @@
+.header{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to bottom right, rgba(250, 148, 148, 0.3), rgba(245, 237, 220, 0.3)), url("/public/img/pexels-alison-burrell-205481.jpg");
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #CFD2CF;
+    gap: 4rem;
+    text-align: center;
+}
+
+.header__h1{
+    font-size: 12rem;
+    font-family: 'Lateef', cursive;
+    font-weight: 400;
+}
+
+.header__h2{
+    font-size: 6rem;
+    font-family: 'Lateef', cursive;
+    font-weight: 400;
+}
+
+.header__button{
+    font-size: 2.5rem;
+    background: #CFD2CF;
+    border: none;
+    padding: 1rem 4rem;
+    text-transform: uppercase;
+    border-radius: 0.5rem;
+    transition: 0.2s;
+}
+
+.header__button:hover{
+    background: hsl(120, 3%, 72%);
+    cursor: pointer;
+}
